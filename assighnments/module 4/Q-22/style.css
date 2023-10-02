@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.main {
+    background-image: url(assets/homebg.jpg);
+    height: 100%;
+    width: 100%;
+
+}
+.menu{
+    background: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.logo{
+    text-align: center;
+    letter-spacing: 5px;
+    width: 35%;
+    height: 50px;
+    background: rgba(0, 0, 0, 0);
+
+}
+
+.mainspan{
+    border: 6px solid white;
+    font-size: 40px;
+}
+.logos{
+    background-color: white;
+}
+.navlist{
+    width: 60%;
+   
+    background: transparent;
+}
+.navlist ul li{
+    display: inline-block;
+    list-style: none;
+    height: 50px;
+    /* line-height: 50px; */
+    background: transparent;
+    padding: 10px 30px;
+
+    
+}
